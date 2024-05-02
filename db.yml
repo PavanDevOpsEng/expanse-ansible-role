@@ -2,5 +2,7 @@
 - name: install DB
   become: yes
   hosts: db
+  vars_files:
+  - credentials.yml
   roles : 
     - db
