@@ -14,4 +14,3 @@ compose:
 
 hostnames:
    - private-ip-address # This allows to return the right private IP for me
-   - network-interface.addresses.private-ip-address # This was the previous value which returns an array of IPs
